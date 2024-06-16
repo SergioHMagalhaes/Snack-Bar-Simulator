@@ -17,8 +17,6 @@ public class NPCDialogue : MonoBehaviour
 
     public void StartDialogue()
     {
-		Debug.Log("O jogo começou!");
-		Debug.Log("npcName");
         currentLineIndex = 0;
         npcNameText.text = npcName; // Define o texto do nome do NPC
         ShowNextLine();
